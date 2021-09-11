@@ -1,5 +1,39 @@
 # Getting Started with Create React App
 
+### COMANDOS START
+
+npx create-react-app .
+yarn start
+
+### COMNADOS ESLINTS
+
+1º passo
+"devDependencies": {
+"eslint-config-prettier": "^7.2.0",
+"eslint-plugin-prettier": "^3.3.1",
+"prettier": "^2.2.1"
+},
+
+2º passo
+yarn install
+
+3º passo
+npx eslint src/**/\*.jsx --fix
+npx eslint src/**/\*.js --fix
+
+### STORYBOOK CONFIG
+
+npx sb init
+yarn storybook
+'../src/\*\*/stories.@(js|jsx|ts|tsx'
+
+### DEPENDENCIAS
+
+yarn add styled-components -S
+yarn add jest-styled-components -D
+
+### DEPENDENCIAS DEV
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
